@@ -11,6 +11,9 @@ def hello():
 def sinus():
     return render_template('sinus.html')
 
+@app.route("/barchart")
+def bar():
+    return render_template('barchart.html')
 
 
 if __name__ == "__main__":
